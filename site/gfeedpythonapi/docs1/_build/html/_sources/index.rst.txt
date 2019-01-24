@@ -68,8 +68,9 @@ The **base_client** is the currently initialised WebSocket object.
 
 Call this method to get the list of subscribed exchanges.
 
-On successful execution **on_message_get_exchanges(list_exchanges)** callback is fired.
+On successful execution **on_message_get_exchanges(base_client,list_exchanges)** callback is fired.
     **list_exchanges** : The list of subscribed exchanges.
+    **base_client** : is the currently initialised WebSocket object.
 
 **Sample Response:**
 

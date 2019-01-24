@@ -93,8 +93,9 @@ The <strong>base_client</strong> is the currently initialised WebSocket object.<
 <h3><strong>def get_exchanges()</strong><a class="headerlink" href="#def-get-exchanges" title="Permalink to this headline">¶</a></h3>
 <p>Call this method to get the list of subscribed exchanges.</p>
 <dl class="docutils">
-<dt>On successful execution <strong>on_message_get_exchanges(list_exchanges)</strong> callback is fired.</dt>
-<dd><strong>list_exchanges</strong> : The list of subscribed exchanges.</dd>
+<dt>On successful execution <strong>on_message_get_exchanges(base_client,list_exchanges)</strong> callback is fired.</dt>
+<dd><strong>list_exchanges</strong> : The list of subscribed exchanges.
+<strong>base_client</strong> : is the currently initialised WebSocket object.</dd>
 </dl>
 <p><strong>Sample Response:</strong></p>
 <blockquote>
